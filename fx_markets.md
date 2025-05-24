@@ -2112,14 +2112,15 @@ The **Garman-Kohlhagen model**, a cornerstone in FX options pricing, not only yi
 
 * **Call Option:**
 
-  $$
-  \Delta_{\text{call}} = e^{-r_f T} N(d_1)
-  $$
+$$
+\Delta_{\text{call}} = e^{-r_f T} N(d_1)
+$$
+
 * **Put Option:**
 
-  $$
-  \Delta_{\text{put}} = -e^{-r_f T} N(-d_1)
-  $$
+$$
+\Delta_{\text{put}} = -e^{-r_f T} N(-d_1)
+$$
 
 **Gamma (Γ)** represents the rate of change in delta for a unit change in the spot rate. Gamma is highest for at-the-money options nearing expiration. High gamma implies that the option's delta changes rapidly with spot moves, making hedging more dynamic. For example, a high gamma position requires more frequent rebalancing to maintain a delta-neutral stance, increasing trading costs.
 
@@ -2137,38 +2138,41 @@ $$
 
 * **Call Option:**
 
-  $$
-  \Theta_{\text{call}} = -\frac{S e^{-r_f T} N'(d_1) \sigma}{2 \sqrt{T}} + r_f S e^{-r_f T} N(d_1) - r_d K e^{-r_d T} N(d_2)
-  $$
+$$
+\Theta_{\text{call}} = -\frac{S e^{-r_f T} N'(d_1) \sigma}{2 \sqrt{T}} + r_f S e^{-r_f T} N(d_1) - r_d K e^{-r_d T} N(d_2)
+$$
+
 * **Put Option:**
 
-  $$
-  \Theta_{\text{put}} = -\frac{S e^{-r_f T} N'(d_1) \sigma}{2 \sqrt{T}} - r_f S e^{-r_f T} N(-d_1) + r_d K e^{-r_d T} N(-d_2)
-  $$
+$$
+\Theta_{\text{put}} = -\frac{S e^{-r_f T} N'(d_1) \sigma}{2 \sqrt{T}} - r_f S e^{-r_f T} N(-d_1) + r_d K e^{-r_d T} N(-d_2)
+$$
 
-**Rho (ρ)** measures the sensitivity of the option price to changes in **domestic interest rates**, while **phi  (φ)** (sometimes referred to as "foreign rho") captures sensitivity to changes in **foreign interest rates**. This dual-rate structure distinguishes FX options from equity options. For example, if the USD interest rate rises, the price of a EUR/USD call option generally falls (due to a higher discounting effect on the USD payoff), while a drop in EUR rates increases the call’s value, enhancing the attractiveness of receiving euros.
+**Rho (ρ)** measures the sensitivity of the option price to changes in **domestic interest rates**, while **phi  (ϕ)** (sometimes referred to as "foreign rho") captures sensitivity to changes in **foreign interest rates**. This dual-rate structure distinguishes FX options from equity options. For example, if the USD interest rate rises, the price of a EUR/USD call option generally falls (due to a higher discounting effect on the USD payoff), while a drop in EUR rates increases the call’s value, enhancing the attractiveness of receiving euros.
 
 * **Call Option:**
 
-  $$
-  \rho_{\text{call}} = T K e^{-r_d T} N(d_2)
-  $$
+$$
+\rho_{\text{call}} = T K e^{-r_d T} N(d_2)
+$$
+
 * **Put Option:**
 
-  $$
-  \rho_{\text{put}} = -T K e^{-r_d T} N(-d_2)
-  $$
+$$
+\rho_{\text{put}} = -T K e^{-r_d T} N(-d_2)
+$$
 
 * **Call Option:**
 
-  $$
-  \phi_{\text{call}} = -T S e^{-r_f T} N(d_1)
-  $$
+$$
+\phi_{\text{call}} = -T S e^{-r_f T} N(d_1)
+$$
+
 * **Put Option:**
 
-  $$
-  \phi_{\text{put}} = T S e^{-r_f T} N(-d_1)
-  $$
+$$
+\phi_{\text{put}} = T S e^{-r_f T} N(-d_1)
+$$
 
 **Formula Symbols Key:**
 
