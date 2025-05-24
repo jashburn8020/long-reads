@@ -1,6 +1,6 @@
 # FX Markets
 
-This is an introduction to FX markets. The text is generated using Google Gemini (mostly, with 2.0 Flash) and ChatGPT (some, with GPT-4o) along with some manual alteration to improve clarity and continuity. This uses the table of contents from the book "Foreign exchange: A practical guide to the FX markets" by Tim Weithers (John Wiley & Sons, 2011) as its outline. See [Prompts](#prompts) for the main prompts used here.
+This is an introduction to FX markets. The text is generated using Google Gemini (with 2.0 Flash and 2.5 Flash) and ChatGPT (with GPT-4o) along with some manual alteration to improve clarity and continuity. This uses the table of contents from the book "Foreign exchange: A practical guide to the FX markets" by Tim Weithers (John Wiley & Sons, 2011) as its outline. See [Prompts](#prompts) for the main prompts used here.
 
 * [FX Markets](#fx-markets)
   * [Chapter 1 - Trading Money](#chapter-1---trading-money)
@@ -1576,6 +1576,8 @@ Instead of borrowing euros directly at a potentially higher rate, Company A borr
 * While offering significant benefits, they come with important risks, including the possibility of a counterparty defaulting, adverse movements in interest rates, and difficulties in exiting the swap before maturity.
 
 ## Chapter 9 - Foreign Exchange Options
+
+Chapter 9, "Foreign Exchange Options," introduces a powerful class of derivative instruments that provide the buyer with a right, but not an obligation, to execute a currency trade. We will begin by establishing the fundamental "Option Basics," defining what options are and differentiating between call and put options. To build a foundational understanding, we will briefly explore "Equity Options" and then delve into the crucial "Put-Call Parity With Equity Options," a no-arbitrage relationship. The chapter will then clarify the concepts of "In-The-Money, At-The-Money, And Out-Of-The-Money" options, which describe an option's intrinsic value. We will then transition to the core subject, "Foreign Exchange Options," examining their structure and applications in currency markets, including "Put-Call Parity In Foreign Exchange." A dedicated section on "Perspective Matters" will highlight the duality inherent in FX options, while "FX Option Premium" will detail how these options are priced. Understanding "Volatility" is paramount, and we will explore its types and impact before examining various "Uses And Strategies" for FX options, from hedging to speculation. Finally, the chapter will demystify "Theoretical Option Valuation," covering both "The Binomial Model" and "The Black-Scholes/Garman-Kohlhagen Model," before concluding with "The Garman-Kohlhagen Option Risk Measures Or 'Greeks'," which are essential tools for managing option risk.
 
 ### 9.1 Option Basics
 
