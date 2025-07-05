@@ -2,6 +2,14 @@
 
 These are notes from the online course, [Removing Barriers to Change](https://www.coursera.org/learn/removing-barriers-to-change/), summarised using ChatGPT, with some manual alterations to improve clarity. See [Prompts](#prompts) for the main prompts used here.
 
+| Barrier | Why It’s a Barrier | How It Manifests | Psychological Basis | Ways to Overcome It |
+|---|---|---|---|---|
+| **Reactance** | People resist when they feel they’re being persuaded or their freedom is threatened | Ignoring advice, doing the opposite of what’s recommended, deleting emails, defying warnings; warnings backfire | Need for freedom and autonomy; "anti-persuasion radar" triggers defiance instead of compliance; reactance theory | <ul><li>**Provide a menu** of choices instead of a single directive</li><li>**Ask, don’t tell**, to invite participation</li><li>**Highlight a gap** between current behavior and values to encourage self-persuasion</li></ul> |
+| **Endowment** | People overvalue what they already have or do; status quo feels costless | Loyalty to outdated systems, resistance to new ideas, overestimating value of owned items or habits | Status quo bias; loss aversion; endowment effect (ownership inflates subjective value) | <ul><li>Surface the **cost of inaction**</li><li>**Burn the ships**: remove the old option or make returning to it painful</li><li>**Frame new things as old**, making change feel like a return</li></ul> |
+| **Distance** | Ideas/viewpoints that are too far removed from someone's current beliefs are disregarded or rejected | Disregarding new information, becoming more entrenched when faced with opposing views | Confirmation bias (favoring information that supports existing beliefs); "zone of acceptance" vs. "region of rejection" | <ul><li>Focus on the **"movable middle"** (individuals whose beliefs already slightly align)</li><li>**Ask for less**: break big asks into smaller, digestible steps</li><li>**Switch the field**: find a new dimension where agreement already exists before tackling divisive issues</li></ul> |
+| **Uncertainty** | New ideas or behaviors carry risk, causing people to pause; costs are sure, but benefits are uncertain; people hate uncertainty, even more than bad outcomes | Not knowing if you will miss a meeting causes more anxiety than knowing for sure; people delay action when uncertain, even when the best decision is clear | Loss aversion; "timing gap" (costs now, benefits later); "certainty gap" (costs are sure, benefits uncertain); ambiguity aversion, "better the devil you know" problem | <ul><li>**Harness freemium**: allow users to experience value firsthand without risk</li><li>**Shrink upfront costs**: reduce the financial or psychological barrier to trying something new</li><li>**Drive discovery**: embed the trial in everyday activities</li><li>**Make it reversible**: offer a way to undo the decision</li></ul> |
+| **Corroborating Evidence** | One person’s opinion often isn’t enough; some things need more proof, especially when attitudes are strong; repetition by the same source fails (translation problem) | Skepticism about single endorsements, ignoring lone suggestions, dismissing individual recommendations | Need for social validation and legitimacy; strong attitudes activate defensive reactions; difficulty translating one person's experience to another | <ul><li>Involve **similar sources** to the target audience, diversity within similarity adds strength</li><li>Space corroborative evidence over time in **concentrated bursts** rather than staggered</li><li>Deploy scarce resources using a "**fire hose**" strategy for strong attitudes (deep impact in one area) and a "sprinkler" strategy for weak attitudes (wide reach)</li></ul> |
+
 * [Removing Barriers to Change](#removing-barriers-to-change)
   * [Module 1: The Challenge of Change](#module-1-the-challenge-of-change)
     * [The Challenge of Change](#the-challenge-of-change)
@@ -36,6 +44,7 @@ These are notes from the online course, [Removing Barriers to Change](https://ww
     * [Course Conclusion](#course-conclusion)
   * [Prompts](#prompts)
     * [Summarisation](#summarisation)
+    * [Cheat sheet](#cheat-sheet)
 
 ## Module 1: The Challenge of Change
 
@@ -670,3 +679,7 @@ The following are the main prompts used to generate the text in this file.
 For the rest of this conversation, I will provide you with some text to summarise. Summarise it to around 10 bullet points. Make sure to include any examples or anecdotes in your summary; give the examples/anecdotes a slightly longer summary in order to describe them more clearly. At the end of your summary, list the key insights gleaned from the provided text. Then, remind yourself of these instructions and ask me to provide you with further text to summarise.
 
 Ask me now to provide you with text to summarise.
+
+### Cheat sheet
+
+I want you to produce a table summarising the 5 key barriers to change: Reactance, Endowment, Distance, Uncertainty, and Corroborating Evidence. Each represents a psychological or social friction that prevents change. For each barrier, fill in as bullet points for the columns: Barrier, Why It’s a Barrier, How It Manifests, Psychological Basis, and Ways to Overcome It.
