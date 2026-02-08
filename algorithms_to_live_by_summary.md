@@ -191,11 +191,11 @@
   * Produces a closed-form stopping threshold as a function of:
     * Offer range $(\max - \min)$.
     * Cost per additional offer.
-* **Numerical illustration ($\$400\text{k}–\$500\text{k}$ range):**
-  * Waiting cost = $\$1$: hold out for $\$499{,}552.79$.
-  * Waiting cost = $\$2{,}000$: threshold = $\$480{,}000$.
-  * Waiting cost = $\$10{,}000$: threshold = $\$455{,}279$.
-  * Waiting cost $\ge \$50{,}000$ (half the range): Optimal to accept the **first offer**.
+* **Numerical illustration ($400k–$500k range):**
+  * Waiting cost = $1: hold out for $499,552.79.
+  * Waiting cost = $2,000: threshold = $480,000.
+  * Waiting cost = $10,000: threshold = $455,279.
+  * Waiting cost > $50,000 (half the range): Optimal to accept the **first offer**.
 * **Key structural insight:**
   * Since probabilities and costs are stationary, the threshold **never declines over time**.
   * Unlike dating or recall-enabled problems, there is no reason to “lower standards” as search continues.
@@ -290,7 +290,7 @@
     * Failure wipes out all accumulated gains.
 * **Optimal policy (burglar problem):**
   * Let $p$ = probability of success, $q = 1 - p$ = probability of failure.
-  * Optimal number of attempts is approximately: $\text{\# attempts} \approx \frac{p}{q}$
+  * Optimal number of attempts is approximately: $`\text{\# attempts} \approx \frac{p}{q}`$
   * Examples:
     * Skilled burglar ($p=0.9$, $q=0.1$): quit after $9$ attempts.
     * Amateur ($p=0.5$, $q=0.5$): stop after $1$ attempt.
